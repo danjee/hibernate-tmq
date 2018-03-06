@@ -5,9 +5,9 @@ ro/oss/hibernate/tmq/domain/UserAttributeType.class
 ro/oss/hibernate/tmq/domain/Auditable.class
 ro/oss/hibernate/tmq/domain/EntityStatus.class
 ro/oss/hibernate/tmq/domain/PersistentListener.class
-ro/oss/hibernate/tmq/domain/WithAttributes.class
 ro/oss/hibernate/tmq/domain/UserAttribute.class
 ro/oss/hibernate/tmq/domain/AttributeScope.class
+ro/oss/hibernate/tmq/main/AppConfig.class
 ro/oss/hibernate/tmq/domain/Credential$CredentialBuilder.class
 ro/oss/hibernate/tmq/domain/PlatformEntity.class
 ro/oss/hibernate/tmq/domain/Audit$AuditBuilder.class

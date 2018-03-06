@@ -1,0 +1,107 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="daniel" id="platform_ddl_0.0.1">
+        <!--USER-->
+        <createTable tableName="user" schemaName="${schema.platform}">
+            <column autoIncrement="true" name="entity_id" type="INTEGER">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="username" type="VARCHAR(100)">
+                <constraints nullable="false" unique="true"/>
+            </column>
+            <column name="credential_id" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="status" type="VARCHAR(20)">
+                <constraints nullable="false" primaryKey="false"/>
+            </column>
+            <column name="created_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="created_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="deleted" type="TINYINT(1)" defaultValueNumeric="0" >
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+        </createTable>
+        <createTable tableName="user_attributes" schemaName="${schema.platform}">
+            <column autoIncrement="true" name="user_attribute_id" type="INTEGER">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="user_id" type="INTEGER">
+                <constraints nullable="false" />
+            </column>
+            <column name="attr_key" type="VARCHAR(100)">
+                <constraints nullable="false" />
+            </column>
+            <column name="attr_name" type="VARCHAR(100)">
+                <constraints nullable="false" />
+            </column>
+            <column name="attr_value" type="VARCHAR(500)">
+                <constraints nullable="false" />
+            </column>
+            <column name="attr_scope" type="TINYINT">
+                <constraints nullable="false" />
+            </column>
+            <column name="attr_type" type="VARCHAR(50)">
+                <constraints nullable="false" />
+            </column>
+            <column name="created_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="created_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="deleted" type="TINYINT(1)" defaultValueNumeric="0" >
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="status" type="VARCHAR(20)">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+        </createTable>
+        <createTable tableName="credential" schemaName="${schema.platform}">
+            <column autoIncrement="true" name="credential_id" type="INTEGER">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="password" type="VARCHAR(200)">
+                <constraints nullable="false" primaryKey="false"/>
+            </column>
+            <column name="created_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="created_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_by" type="INTEGER">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="updated_at" type="DATETIME">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+            <column name="deleted" type="TINYINT(1)" defaultValueNumeric="0" >
+                <constraints nullable="false" primaryKey="false"/>
+            </column>
+            <column name="status" type="VARCHAR(20)">
+                <constraints nullable="true" primaryKey="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

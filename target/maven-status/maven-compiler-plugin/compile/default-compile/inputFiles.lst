@@ -1,6 +1,5 @@
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/DefaultAttribute.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/Audit.java
-/home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/WithAttributes.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/Credential.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/AuditListener.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/spring/repository/UserRepository.java
@@ -16,6 +15,7 @@
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/EntityStatus.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/main/MainApp.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/PersistentListener.java
+/home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/main/AppConfig.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/PlatformEntity.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/User.java
 /home/daniel/development/workspace_test/hibernate-tmq/src/main/java/ro/oss/hibernate/tmq/domain/PlatformUser.java

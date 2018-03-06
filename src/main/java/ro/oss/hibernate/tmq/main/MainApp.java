@@ -13,6 +13,7 @@ public class MainApp {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
+
         Credential credential = Credential.CredentialBuilder.builder()
                 .withPassword("12345")
                 .build();
