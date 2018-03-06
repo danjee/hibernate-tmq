@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+   db:
+     image: mysql:5.7.21
+     volumes:
+       - db_data:/var/lib/mysql-1
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: admin4platform
+       MYSQL_DATABASE: platform
+       MYSQL_USER: oss
+       MYSQL_PASSWORD: oss4life!
+     ports:
+       - 3306:3306
+volumes:
+    db_data:
+
+
