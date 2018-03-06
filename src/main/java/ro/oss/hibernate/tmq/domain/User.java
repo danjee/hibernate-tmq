@@ -29,8 +29,7 @@ public class User implements PlatformEntity<UserAttribute, Integer>, Persistable
     @JoinColumn(name="CREDENTIAL_ID")
     private Credential credential;
 
-    @OneToMany(targetEntity = UserAttribute.class, cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @JoinColumn(name = "USER_ID")
+    @OneToMany(targetEntity = UserAttribute.class, cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY, mappedBy = "user")
     private Collection<UserAttribute> attributes;
 
     @Embedded

@@ -21,6 +21,6 @@ public class PlatformUserConverter implements AttributeConverter<PlatformUser, I
         if (dbData == null){
             return null;
         }
-        return (PlatformUser) () -> dbData;
+        return () -> dbData;
     }
 }

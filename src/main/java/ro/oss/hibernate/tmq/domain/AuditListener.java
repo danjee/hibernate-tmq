@@ -10,23 +10,23 @@ import java.util.Objects;
  */
 public class AuditListener {
 
-    @PrePersist
-    public void beforeSave(Auditable auditable){
-        Audit audit = auditable.getAudit();
-        if (Objects.isNull(audit)){
-            audit = new Audit();
-            auditable.setAudit(audit);
-        }
-        audit.setCreatedAt(LocalDateTime.now());
-        audit.setCreatedBy(() -> 1);
-        audit.setUpdatedAt(LocalDateTime.now());
-        audit.setUpdatedBy(() -> 1);
-    }
-
-    @PreUpdate
-    public void beforeUpdate(Auditable auditable){
-        Audit audit = auditable.getAudit();
-        audit.setUpdatedAt(LocalDateTime.now());
-        audit.setUpdatedBy(() -> 1);
-    }
+//    @PrePersist
+//    public void beforeSave(Auditable auditable){
+//        Audit audit = auditable.getAudit();
+//        if (Objects.isNull(audit)){
+//            audit = new Audit();
+//            auditable.setAudit(audit);
+//        }
+//        audit.setCreatedAt(LocalDateTime.now());
+//        audit.setCreatedBy(() -> 1);
+//        audit.setUpdatedAt(LocalDateTime.now());
+//        audit.setUpdatedBy(() -> 1);
+//    }
+//
+//    @PreUpdate
+//    public void beforeUpdate(Auditable auditable){
+//        Audit audit = auditable.getAudit();
+//        audit.setUpdatedAt(LocalDateTime.now());
+//        audit.setUpdatedBy(() -> 1);
+//    }
 }
