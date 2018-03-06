@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad4c214d-a6f2-4a8c-ad12-f657c862e0a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.MD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/liquibase.properties" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/oss/hibernate/tmq/domain/WithAttributes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/oss/hibernate/tmq/main/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/ro/oss/hibernate/tmq/main/MainApp.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/appContext.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appContext.xml" afterPath="$PROJECT_DIR$/target/classes/appContext.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/oss/hibernate/tmq/domain/WithAttributes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/oss/hibernate/tmq/main/MainApp.class" afterPath="$PROJECT_DIR$/target/classes/ro/oss/hibernate/tmq/main/MainApp.class" />
-      <change beforePath="$PROJECT_DIR$/target/hibernate-tmq-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    </list>
+    <list default="true" id="ad4c214d-a6f2-4a8c-ad12-f657c862e0a8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding>
                 <element signature="n#prop#0;n#props#0;n#property#4;n#bean#0;n#beans#0;n#!!top" expanded="true" />
               </folding>
@@ -478,12 +461,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520314284220</updated>
       <workItem from="1520314294632" duration="3224000" />
-      <workItem from="1520364520971" duration="4343000" />
+      <workItem from="1520364520971" duration="4394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7567000" />
+    <option name="totallyTimeSpent" value="7618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="53" width="1920" height="1055" extended-state="6" />
@@ -990,7 +973,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/appContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="70" lean-forward="true" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding>
             <element signature="n#prop#0;n#props#0;n#property#4;n#bean#0;n#beans#0;n#!!top" expanded="true" />
           </folding>
